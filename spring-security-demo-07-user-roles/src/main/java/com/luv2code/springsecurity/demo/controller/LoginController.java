@@ -8,6 +8,8 @@ public class LoginController {
 	@GetMapping("/showMyLoginPage")
 	public String showMyLoginPage() {
 		System.out.println("Welcome you are in login page");
+		
+		System.out.println("Dummy");
 //		return "plain-login";
 		return "fancy-login";
 	}
